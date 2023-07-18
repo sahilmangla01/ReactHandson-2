@@ -50,3 +50,36 @@ button{
 
 
 }
+ @media only screen and (min-width:350px) and (max-width:500px){
+   h1{
+    font-size: 30px;
+
+   }
+   label{
+    font-size: 20px;
+   }
+   input{
+    width: 200px;
+    
+   }
+
+   button{
+    margin-top: 20px;
+   }
+
+   .Output{
+    width: 300px;
+    left: 40px;
+    flex-direction: column;
+    margin-top: 40px;
+
+
+   }
+
+   .DataBox{
+    width: 200px;
+    height: 120px;
+    padding: 20px;
+    margin: 10px auto;
+   }
+}
